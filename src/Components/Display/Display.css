@@ -1,0 +1,10 @@
+div {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  font-size: 72px;
+  text-align: center;
+}

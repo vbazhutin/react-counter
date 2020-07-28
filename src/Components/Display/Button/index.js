@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react';
+import './Button.css'
 
 export const Button = (props) => {
   const handleClick = () => {
+    console.log('button handler')
     props.buttonHandler()
   }
 

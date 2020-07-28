@@ -1,0 +1,10 @@
+button {
+  background: green;
+  border: transparent;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  max-width: 10vw;
+  text-align: center;
+  height: 30px;
+}
