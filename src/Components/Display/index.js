@@ -21,7 +21,7 @@ export class Display extends React.Component {
         <p>{this.state.currentCount}</p>
         {/* <input >Type In a # Counter</input> */}
         <Button buttonHandler={this.updateCount} buttonTxt='Add 1' increment = {1}/>
-        <Button buttonHandler={this.updateCount} buttonTxt='Add 2' increment = {2000}/>
+        <Button buttonHandler={this.updateCount} buttonTxt='Add 2' increment = {2}/>
       </div>
     )
   }
